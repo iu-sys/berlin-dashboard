@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chun Yao 的柏林生活儀表板</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC",sans-serif;background:#0f172a;color:#e2e8f0;min-height:100vh}
+.hero{background:linear-gradient(135deg,#6366f1,#8b5cf6,#ec4899);padding:3rem 1.5rem;text-align:center}
+.hero h1{font-size:2.2rem;margin-bottom:.5rem}
+.hero p{opacity:.85;font-size:1.1rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.25rem;max-width:1000px;margin:2rem auto;padding:0 1.5rem}
+.card{background:#1e293b;border:1px solid #334155;border-radius:16px;padding:2rem;text-align:center;text-decoration:none;color:#e2e8f0;transition:all .25s;display:block}
+.card:hover{transform:translateY(-4px);border-color:#6366f1;box-shadow:0 12px 40px rgba(99,102,241,.2)}
+.card-icon{font-size:3rem;margin-bottom:1rem}
+.card h2{font-size:1.3rem;margin-bottom:.5rem}
+.card p{color:#94a3b8;font-size:.9rem;line-height:1.5}
+.badge{display:inline-block;background:rgba(99,102,241,.2);color:#a5b4fc;padding:.2rem .7rem;border-radius:12px;font-size:.75rem;margin-top:.75rem}
+.footer{text-align:center;padding:2rem;color:#475569;font-size:.75rem}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>🌍 Chun Yao 的柏林生活儀表板</h1>
+  <p>德國柏林交換學生 · 每日自動更新</p>
+</div>
+
+<div class="grid">
+
+  <a href="house.html" class="card">
+    <div class="card-icon">🏠</div>
+    <h2>房子獵人</h2>
+    <p>台科大周邊套房監控<br>全台北＋新北6區 · ≤$15,000</p>
+    <span class="badge">每日 02:00 更新</span>
+  </a>
+
+  <a href="flights.html" class="card">
+    <div class="card-icon">✈️</div>
+    <h2>機票獵人</h2>
+    <p>桃園↔日韓廉航監控<br>來回含行李 ≤ NT$10,000</p>
+    <span class="badge">每日 01:30 更新</span>
+  </a>
+
+  <a href="berlin_events.html" class="card">
+    <div class="card-icon">🎉</div>
+    <h2>柏林活動</h2>
+    <p>Eventbrite · Meetup · ESN<br>BHT · Studierendenwerk</p>
+    <span class="badge">每日 09:00 更新</span>
+  </a>
+
+</div>
+
+<div class="footer">
+  <p>🔄 自動更新 · GitHub Pages 永久託管 · 無追蹤 · 無廣告</p>
+</div>
+
+</body>
+</html>

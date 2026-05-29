@@ -1,0 +1,11 @@
+# 安全防線 — 絕對不推送
+.env
+*.env
+*.key
+*.pem
+*secret*
+*password*
+*credential*
+*.token
+config.yaml
+**/tunnel_url*
